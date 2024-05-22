@@ -3,6 +3,8 @@
 The code implementation for [Efficient label-free pruning and retraining for Text-VQA Transformers](https://www.sciencedirect.com/science/article/abs/pii/S0167865524001338)
 ## Installation 
 ```
+git clone https://github.com/soonchangAI/LFPR
+cd LFPR
 conda create -n lfpr_tap python=3.6.13
 pip install -r TAP/requirements.txt
 
