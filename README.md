@@ -40,7 +40,7 @@ original_dl/
 
 The pruning and retraining scripts are located in <code>[scripts](scripts)</code>
 
-1. Setup the paths:
+1. Setup the paths in the scripts:
 
 ```
 # General config
@@ -58,7 +58,7 @@ num_gpu= # number of GPUs
 
 ```
 
-2. Run experiments for TAP(TextVQA)
+2. Run experiment using the script. For example, run experiment for TAP(TextVQA)
 
 ```
 cd scripts/tap_pruning/tap_textvqa
