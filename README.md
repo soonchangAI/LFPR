@@ -13,8 +13,6 @@ cd TAP
 
 python setup.py develop
 
-python setup.py develop
-
 ```
 
 ## Data Setup
