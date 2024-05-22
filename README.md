@@ -30,10 +30,8 @@ imdb/
 original_dl/
 │   ├── m4c_stvqa/
 │   │   ├── calculate_score/
-│   │   │   ├── january.csv
-│   │   │   └── TAP_predicted_labels/
-            └── TAP12_predicted_labels/
-
+│   │   │   ├── TAP_predicted_labels/
+│   │   │   └── TAP12_predicted_labels/
 ```
 
 ## Quickstart
@@ -41,7 +39,6 @@ original_dl/
 The pruning and retraining scripts are located in <code>[scripts](scripts)</code>
 
 1. Setup the paths in the scripts:
-
 ```
 # General config
 
@@ -55,7 +52,6 @@ prune_code_dir= # directory of repo
 
 # retrain config
 num_gpu= # number of GPUs
-
 ```
 
 2. Run experiment using the script. For example, run experiment for TAP(TextVQA)
@@ -67,7 +63,6 @@ chmod +x prune_tap_textvqa.sh
 ```
 
 ## Citation
-
 ```
 @article{POH20241,
 title = {Efficient label-free pruning and retraining for Text-VQA Transformers},
@@ -81,11 +76,7 @@ url = {https://www.sciencedirect.com/science/article/pii/S0167865524001338},
 author = {Soon Chang Poh and Chee Seng Chan and Chee Kau Lim},
 }
 ```
-
 ## Credits
+The TAP implementation is based on [TAP: Text-Aware Pre-training](https://github.com/microsoft/TAP)
 
-The TAP implementation is based on following repo:
-* [TAP: Text-Aware Pre-training](https://github.com/microsoft/TAP)
-
-The pruning heuristic <code>sum</code> is based on:
-* [A Fast Post-Training Pruning Framework for Transformers](https://github.com/WoosukKwon/retraining-free-pruning)
+The pruning heuristic <code>sum</code> is based on [A Fast Post-Training Pruning Framework for Transformers](https://github.com/WoosukKwon/retraining-free-pruning)
