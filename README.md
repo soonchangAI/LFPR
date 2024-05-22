@@ -30,8 +30,8 @@ imdb/
 original_dl/
 │   ├── m4c_stvqa/
 │   │   ├── calculate_score/
-│   │   │   ├── TAP_predicted_labels/
-│   │   │   └── TAP12_predicted_labels/
+│   │   ├── TAP_predicted_labels/
+│   │   └── TAP12_predicted_labels/
 ```
 
 ## Quickstart
