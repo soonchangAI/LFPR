@@ -6,7 +6,7 @@
 The official implementation for [Efficient label-free pruning and retraining for Text-VQA Transformers](https://www.sciencedirect.com/science/article/abs/pii/S0167865524001338)
 
 
-* A label-free importance score for structured pruning of autoregressive Transformers for TextVQA.
+* A label-free importance score for structured pruning of autoregressive Transformers for Text-VQA.
 
 *  An adaptive retraining approach for pruned Transformer models of varying sizes.
 
